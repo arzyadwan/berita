@@ -9,7 +9,7 @@ const beritaRouter = require('./routes/routeBerita');
 app.use('/berita', beritaRouter);
 
 app.get("/", (req, res) => {
-    return res.status(200).send("Hai bambang ini halaman berita yah
+    return res.status(200).send("Hai bambang ini halaman berita yah")
   });
 
 app.use(express.json())
