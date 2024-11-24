@@ -1,8 +1,8 @@
 const mysql = require("mysql");
 //konfig koneksi ke db
 const dbConfig = {
-    host: "34.101.224.64",
-    user: "andi",
+    host: "34.128.92.249",
+    user: "root",
     password: "andhy060402",
     database: "paddy_cure",
   };
@@ -16,6 +16,6 @@ const dbConfig = {
     }
     console.log("Connected to MySQL database!");
   });
-  
+
 
   module.exports = db;
