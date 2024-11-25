@@ -4,7 +4,7 @@ const dbConfig = {
     host: "34.128.66.235",
     user: "andi",
     password: "Ari421@&!",
-    database: "test",
+    database: "test"
   };
   
   const db = mysql.createConnection(dbConfig);
