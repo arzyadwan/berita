@@ -1,10 +1,10 @@
 const mysql = require("mysql");
 //konfig koneksi ke db
 const dbConfig = {
-    host: "34.101.98.164",
+    host: "34.128.66.235",
     user: "andi",
     password: "Ari421@&!",
-    database: "db_berita",
+    database: "test",
   };
   
   const db = mysql.createConnection(dbConfig);
